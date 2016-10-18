@@ -14,8 +14,8 @@ image_ext = [".mpeg",".bmp",".tiff",".png"]
 
 ## Flags for moving the files
 move_videos=True
-move_audio=True
-move_images=True
+move_audio=False
+move_images=False
 
 ## Flag for deleting destination folder
 delete_empty_dirs=True

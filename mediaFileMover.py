@@ -125,6 +125,8 @@ def main():
 	if mediaFileMoverConfig.organize_video_dest:
 		organize_video_dest(dest)
 
+	print("MediaFileMover operation complete.")
+
 if __name__ == "__main__":
 	main()
 
