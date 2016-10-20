@@ -94,6 +94,9 @@ def delete_empty_dirs(src_dir):
 
 ## Organize the destination			
 def organize_video_dest(dest):
+
+        ## Destination for 3D video files
+	threed_dest = mediaFileMoverConfig.threed_video_dest
 	
 	for root, dirs, files in os.walk(dest):
 		path = root.split('/')
@@ -123,7 +126,7 @@ def main():
 		delete_empty_dirs(src_dir)
 	
 	if mediaFileMoverConfig.organize_video_dest:
-		organize_video_dest(dest)
+		organize_video_dest(mediaFileMoverConfig.video_dest)
 
 	print("MediaFileMover operation complete.")
 

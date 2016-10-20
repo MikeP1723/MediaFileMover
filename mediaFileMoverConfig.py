@@ -21,4 +21,4 @@ move_images=False
 delete_empty_dirs=True
 
 ## Flag for organizimg destination folder
-organize_video_dest=False
+organize_video_dest=True
